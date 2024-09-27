@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --branco-principal: #fff;
+    --cinza-secundario: #c0c0c0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030c;
+}
+
+body {
+    background-color: #00030c;
+    color: var(--branco-principal);
+}
+
+.principal {
+    background-image: url('cars.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container_botao {
+    background-color: rgb(255, 97, 97);
+    border-radius: 10%;
+    padding: 15px;
+    color: var(--branco-principal);
+    display: block;
+}
+
+.botao_secundario {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+
+}
+
+.container_aviso {
+    font-size: 12px;
+    color: var(--cinza-secundario);
+
+
+}
+
+.container_titulo {
+    font-size: 28px;
+    font-weight: 700;
+
+}
